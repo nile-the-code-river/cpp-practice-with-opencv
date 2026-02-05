@@ -6,19 +6,13 @@
 using namespace cv;
 using namespace std;
 
-void show_img();
+void show_processed_img();
 
-/// <summary>
-/// importing images
-/// </summary>
-void main() {
-	show_img();
+void main2() {
+	show_processed_img();
 }
 
-/// <summary>
-/// basic functions
-/// </summary>
-void show_img() {
+void show_processed_img() {
 	string path = "Resources/test.png";
 	Mat img = imread(path);
 	Mat imgGray;

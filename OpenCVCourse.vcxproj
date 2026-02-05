@@ -132,7 +132,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Chapter1.cpp" />
     <ClCompile Include="Chapter2.cpp" />
+    <ClCompile Include="Chapter3.cpp" />
+    <ClCompile Include="Chapter4.cpp" />
+    <ClCompile Include="Chapter5.cpp" />
+    <ClCompile Include="Chapter6.cpp" />
+    <ClCompile Include="Chapter7.cpp" />
+    <ClCompile Include="Chapter8.cpp" />
+    <ClCompile Include="ColourPicker.cpp" />
+    <ClCompile Include="Proj1_VirtualPainter.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

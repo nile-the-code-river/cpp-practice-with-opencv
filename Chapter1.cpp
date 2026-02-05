@@ -1,6 +1,6 @@
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
-#include <opencv2/imgcodecs.hpp>
+#include <opencv2/imgproc.hpp>
 #include <iostream>
 
 using namespace cv;
@@ -8,13 +8,10 @@ using namespace std;
 
 void show_img();
 void show_vid();
-void show_webcap();
+void show_webcam();
 
-/// <summary>
-/// importing images
-/// </summary>
-void main() {
-	show_webcap();
+void main1() {
+	show_webcam();
 }
 
 void show_img() {
@@ -36,7 +33,7 @@ void show_vid() {
 	}
 }
 
-void show_webcap() {
+void show_webcam() {
 	VideoCapture cap(0);
 	Mat img;
 
